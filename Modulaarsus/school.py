@@ -1,4 +1,4 @@
-"""School class which stores information about courses and students."""
+"""School class which stores information about courses and students, test."""
 import random
 
 from course import Course

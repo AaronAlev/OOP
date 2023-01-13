@@ -19,7 +19,6 @@ class Student:
         else:
             pass
 
-
     def get_id(self) -> int:
         """Return id."""
         return self.id

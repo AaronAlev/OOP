@@ -1,4 +1,4 @@
-"""Course class with name and grades."""
+"""Course class with name and grades, test."""
 
 
 class Course:
