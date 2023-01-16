@@ -18,6 +18,7 @@ class Book:
         self.rating = rating
 
     def __repr__(self):
+        """Represent self."""
         return self.title
 
 
@@ -117,7 +118,7 @@ class Store:
 
         :return: list of Book objects
         """
-        books_sorted_by_rating = sorted(self.books, key=lambda book: book.price, reverse=True)
+        books_sorted_by_rating = sorted(self.books, key=lambda book: book.rating, reverse=True)
         print(books_sorted_by_rating)
         best_books = []
         for book in books_sorted_by_rating:
