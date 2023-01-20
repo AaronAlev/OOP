@@ -148,3 +148,4 @@ if __name__ == '__main__':
     print(pood.can_add_book(raamat5))
     print(pood.get_all_books())
     print(pood.get_most_popular_book())
+    pood.get_books_by_price()
